@@ -1,115 +1,67 @@
-# 🎮 Find The Number Game
+<div align="center">
 
-A simple and fun **Number Guessing Game** built with Python 🐍
+<img src="./assets/banner.svg" alt="Find the Number" width="100%" />
 
-The computer randomly selects a number between **1 and 99**, and the player has **7 chances** to guess the correct number. After every attempt, the game gives hints to help the player find the answer.
+</div>
 
----
+# Find the Number Game
 
-## 🎯 Features
-
-✨ Random number generation
-✨ Limited attempts system
-✨ Input validation
-✨ Helpful hints (Higher / Lower)
-✨ Error handling for invalid inputs
-✨ Replay option
-✨ Simple and clean Python code structure
+Number guessing game: computer picks 1–99, player has 7 attempts with higher/lower hints.
 
 ---
 
-## 🖥️ Game Preview
+## English
 
-```
-========================================
-     🎮 Find the number game 🎮
-========================================
-I picked a number between 1 and 99!
-You have 7 tries to find it.
-========================================
 
-Attempt 1/7 | 7 chances left
 
-Your guess: 50
+### Features
 
-⬆️ Go higher!
-```
+- Random number between 1 and 99
+- 7 attempts with higher / lower hints
+- Input validation and replay option
+- Clean console Python structure
 
----
+### Stack
 
-## 🛠️ Technologies Used
+Python
 
-* 🐍 Python 3
-* 🎲 Random Module
-* 🔄 Loops & Conditions
-* ⚠️ Exception Handling
-
----
-
-## 🚀 How To Run
-
-### 1. Clone the repository
+### Getting started
 
 ```bash
-git clone https://github.com/your-username/find-number-game.git
+git clone https://github.com/yasinfallahati/Find-the-number-game.git
+cd Find-the-number-game
+python "Find the number game.py"
 ```
 
-### 2. Go to project folder
+---
+
+## فارسی
+
+### بازی پیدا کردن عدد
+
+حدس عدد بین ۱ تا ۹۹ در هفت فرصت با راهنمای بالاتر/پایین‌تر.
+
+
+
+### امکانات
+
+- عدد تصادفی بین ۱ تا ۹۹
+- ۷ تلاش با راهنمای بالاتر / پایین‌تر
+- اعتبارسنجی ورودی و امکان بازی مجدد
+- ساختار تمیز کنسولی پایتون
+
+### تکنولوژی‌ها
+
+Python
+
+### شروع کار
 
 ```bash
-cd find-number-game
-```
-
-### 3. Run the game
-
-```bash
-python main.py
+git clone https://github.com/yasinfallahati/Find-the-number-game.git
+cd Find-the-number-game
+python "Find the number game.py"
 ```
 
 ---
 
-## 📂 Project Structure
-
-```
-Find-Number-Game/
-│
-├── main.py
-└── README.md
-```
-
----
-
-## 🎮 How To Play
-
-1. The computer chooses a random number.
-2. Enter your guess.
-3. The game tells you:
-
-   * ⬆️ Go higher if your guess is too low
-   * ⬇️ Go lower if your guess is too high
-4. Find the number before your attempts run out.
-
----
-
-## 📌 Future Improvements
-
-Some ideas for future versions:
-
-* 🏆 Add score system
-* 🥇 Save best records
-* ⚡ Add difficulty levels
-* 🎨 Create a graphical interface with Tkinter/Pygame
-* 🌐 Create a web version using Flask
-
----
-
-## 👨‍💻 Developer
-
-Created with ❤️ by **Yasin Fallahati**
-
-Python Developer 🐍
-Learning | Building | Improving 🚀
-
----
-
-⭐ If you like this project, consider giving it a star!
+`#python` `#game` `#console` `#beginner`
